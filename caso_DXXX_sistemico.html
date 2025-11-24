@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Análisis de caso · Enfoque sistémico breve estratégico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --card: #111320;
+      --accent: #ff4da6;
+      --accent-soft: rgba(255, 77, 166, 0.18);
+      --text: #f5f5f5;
+      --muted: #a5a8c7;
+      --border: #2a2e44;
+    }
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      background: radial-gradient(circle at top, #181b2f 0, #05060a 55%, #000 100%);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+    }
+    .page {
+      width: 100%;
+      max-width: 1100px;
+    }
+    h1, h2, h3 {
+      margin: 0 0 .6rem;
+    }
+    h1 {
+      font-size: 2.1rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 span {
+      color: var(--accent);
+    }
+    .meta {
+      font-size: .9rem;
+      color: var(--muted);
+      margin-bottom: 1.6rem;
+    }
+    .card {
+      background: linear-gradient(135deg, #101325, #090b14);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: .75rem;
+      margin-bottom: .8rem;
+    }
+    .pill {
+      border-radius: 999px;
+      border: 1px solid var(--accent-soft);
+      padding: .1rem .7rem;
+      font-size: .75rem;
+      color: var(--muted);
+      background: radial-gradient(circle, rgba(255, 77, 166, .16), transparent 65%);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+    }
+    p {
+      margin: .2rem 0 .6rem;
+      font-size: .96rem;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+    ul {
+      margin: .2rem 0 .6rem 1.1rem;
+      font-size: .95rem;
+      color: var(--muted);
+    }
+    li { margin-bottom: .25rem; }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 1rem;
+    }
+    @media (max-width: 800px) {
+      .grid-2 { grid-template-columns: minmax(0,1fr); }
+    }
+    .note {
+      border-left: 3px solid var(--accent);
+      padding-left: .7rem;
+      margin-top: .4rem;
+      font-size: .9rem;
+    }
+    .sub {
+      font-size: .86rem;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: var(--muted);
+      margin-bottom: .4rem;
+    }
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: .14rem .55rem;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-right: .3rem;
+      margin-bottom: .3rem;
+    }
+    .small {
+      font-size: .85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+
+    <!-- ENCABEZADO -->
+    <section class="card">
+      <h1>Análisis de caso<br><span>Enfoque sistémico breve estratégico</span></h1>
+      <div class="meta">
+        Psicoterapeuta: <strong>JXXX</strong><br>
+        Consultante: <strong>DXXX</strong> · Octubre 2025
+      </div>
+    </section>
+
+    <!-- DATOS GENERALES -->
+    <section class="card">
+      <div class="card-header">
+        <h2>1. Datos generales</h2>
+        <span class="pill">Perfil de la consultante</span>
+      </div>
+      <div class="grid-2">
+        <div>
+          <ul>
+            <li><strong>Nombre:</strong> DXXX (Pi.)</li>
+            <li><strong>Edad:</strong> 53 años</li>
+            <li><strong>Formación:</strong> Lic. en Nutrición / Publicista</li>
+            <li><strong>Ocupación actual:</strong> Ama de casa, participación en negocio familiar de compra–venta</li>
+            <li><strong>Religión:</strong> Católica</li>
+            <li><strong>Estado civil:</strong> Casada con EXXX (esposo), 25 años de matrimonio</li>
+            <li><strong>Hijos:</strong> CXXX (24), EXXX (19, hijo), EMXXX (15)</li>
+          </ul>
+        </div>
+        <div>
+          <p class="small">
+            Primera sesión orientada a toma de datos, explicación de términos,
+            condiciones de la intervención y aviso de privacidad. Se establece
+            alianza terapéutica inicial y se clarifican expectativas de trabajo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOTIVO DE CONSULTA -->
+    <section class="card">
+      <div class="card-header">
+        <h2>2. Motivo de consulta y síntomas iniciales</h2>
+        <span class="pill">Demanda explícita</span>
+      </div>
+      <h3 class="sub">2.1 Motivo señalado por la consultante</h3>
+      <ul>
+        <li>Ansiedad y bloqueo para retomar metas personales y profesionales.</li>
+        <li>Miedo a la visibilidad pública y a “no ser buena madre”.</li>
+        <li>Deseo explícito de “poner en marcha” un proyecto propio.</li>
+      </ul>
+
+      <h3 class="sub">2.2 Observaciones del terapeuta</h3>
+      <ul>
+        <li>Discurso inicial acelerado, abundante; hipervigilancia verbal.</li>
+        <li>Tensión corporal, respiración superficial.</li>
+        <li>Preocupación constante por la relación de pareja; presencia de episodios de frigidez sexual (no motivo explícito de consulta).</li>
+        <li>Colitis nerviosa en momentos de estrés; relaciones sexuales vividas como parte del estrés.</li>
+      </ul>
+
+      <p class="note">
+        De manera preliminar, la ansiedad se entiende como <strong>síntoma organizador</strong>
+        entre el mundo interno de DXXX, sus proyectos personales y la homeostasis
+        del sistema familiar.
+      </p>
+    </section>
+
+    <!-- CONTEXTO FAMILIAR / TRANSGENERACIONAL -->
+    <section class="card">
+      <div class="card-header">
+        <h2>3. Contexto familiar y transgeneracional</h2>
+        <span class="pill">Sistema ampliado</span>
+      </div>
+
+      <p>
+        DXXX proviene de una familia extensa donde MXXX es la mayor de seis hermanos.
+        En la línea materna se observan patrones reiterados de
+        <strong>obediencia femenina</strong> y <strong>rol de servicio al hombre</strong>,
+        en un contexto fuertemente marcado por la educación religiosa católica.
+        Tanto MXXX como DXXX han sido <strong>maestras de catecismo</strong>, lo que
+        refuerza el mandato moral y la vivencia del deber conyugal.
+      </p>
+
+      <p>
+        El encuentro conyugal se vive más como <em>obligación</em> que como
+        espacio de deseo, asociándose a somatización en forma de dolor abdominal
+        y malestar digestivo.
+      </p>
+
+      <p class="note">
+        A nivel de sistema, la familia funciona como un
+        <strong>“servidor de valores”</strong> donde las mujeres instalan módulos de
+        obediencia, cuidado y sacrificio; los hombres ocupan el lugar de autoridad
+        y receptor de servicio.
+      </p>
+    </section>
+
+    <!-- FORMULACIÓN SISTÉMICA BREVE -->
+    <section class="card">
+      <div class="card-header">
+        <h2>4. Formulación sistémico–breve</h2>
+        <span class="pill">Hipótesis de trabajo</span>
+      </div>
+
+      <h3 class="sub">4.1 Hipótesis sobre el síntoma</h3>
+      <ul>
+        <li>La ansiedad y la evasión de metas personales ayudan a mantener la <strong>homeostasis familiar</strong>.</li>
+        <li>Cada intento de cambio genera resistencia del sistema, retroceso, culpa y nuevo incremento de ansiedad.</li>
+        <li>La postergación protege a DXXX de un posible conflicto abierto por redistribución de roles y poder.</li>
+      </ul>
+
+      <h3 class="sub">4.2 Función del síntoma</h3>
+      <p>
+        El síntoma ansioso funciona como un <strong>amortiguador</strong> que:
+      </p>
+      <ul>
+        <li>Evita cuestionar de frente el modelo conyugal y familiar.</li>
+        <li>Neutraliza la autoafirmación (culpa ante el placer y la autonomía).</li>
+        <li>Marca una transición del sistema: deseo explícito de un “cambio de paradigma” más allá del matriarcado sacrificial.</li>
+      </ul>
+
+      <p class="note">
+        Marco conceptual: Terapia Breve Estratégica (MRI) y Terapia Breve Centrada
+        en Soluciones (SFBT), trabajando con intentos de solución que mantienen el
+        problema y con pasos mínimos hacia un futuro preferido.
+      </p>
+    </section>
+
+    <!-- EVOLUCIÓN POR SESIONES -->
+    <section class="card">
+      <div class="card-header">
+        <h2>5. Evolución por sesiones</h2>
+        <span class="pill">Línea de proceso</span>
+      </div>
+
+      <h3 class="sub">Sesiones 1 a 3 · Definición de foco y primeros cambios</h3>
+      <ul>
+        <li>Delimitación del problema: “no avanzar / no hacer sus cosas”, traducido a conductas observables (postergar tareas del proyecto y autocuidado).</li>
+        <li>Externalización del síntoma: se nombra al obstáculo como <em>“la Traba”</em> o <em>“el Freno”</em>, identificando condiciones que lo activan (miedo a exposición, perfeccionismo) y lo debilitan (pedir ayuda, pasos muy pequeños).</li>
+        <li>Uso de pregunta milagro y escalas (por ejemplo 4→8) para describir vida post–problema: mayor independencia, ligereza, rutina mínima de contenidos/ventas, tiempo propio sin culpa.</li>
+        <li>Se introduce un antídoto concreto: respiración 5–4–6 con mano en ombligo/sienes + retomar el “paso mínimo”.</li>
+      </ul>
+
+      <p class="note">
+        Objetivo inmediato: transformar el “sé lo que tengo que hacer” en
+        <strong>ensayo real de sus propias técnicas</strong> durante la semana,
+        consolidando la identidad de “persona que ya tiene recursos y los usa”.
+      </p>
+
+      <h3 class="sub">Sesión 4 · Sol, economía y rivalidad</h3>
+      <ul>
+        <li>DXXX reporta avances en desbloquear la generación de ingresos mediante un proyecto de costura con MXXX.</li>
+        <li>Exploración de creencias limitantes sobre la apariencia física heredadas de MXXX (comentarios descalificadores interiorizados).</li>
+        <li>Trabajo metafórico con el <strong>Sol</strong> como fuente de equilibrio, vitalidad y estado de ánimo.</li>
+        <li>Se vincula una rivalidad deportiva con dinámicas de poder y sometimiento en la historia familiar y conyugal.</li>
+        <li>Se sugiere comenzar a desligar emociones atrapadas asociadas al “fracaso” de las vivencias familiares de género.</li>
+      </ul>
+
+      <h3 class="sub">Sesión 5 · Relación con MXXX y casa de los abuelos</h3>
+      <ul>
+        <li>Revisión de un ejercicio de biodescodificación dirigido a MXXX que genera una reacción defensiva; se reencuadra la intención de DXXX como gesto de cuidado, aunque el resultado no sea el esperado.</li>
+        <li>Análisis de la acumulación de objetos en la casa materna y la convivencia con PXXX (88 años) y HXXX con rasgos autistas.</li>
+        <li>DXXX identifica tensión entre su deseo de ordenar y la vivencia materna de “no ser aceptada como es”.</li>
+        <li>Se exploran cambios en las costumbres familiares a lo largo del tiempo (enfermedad de la abuela, migración, distancia afectiva).</li>
+        <li>Se acuerda como tarea ir a casa de MXXX con disposición colaborativa, promoviendo visitas de CXXX, EXXX (hijo) y EMXXX a los abuelos y buscando equilibrio entre libertad y respeto familiar.</li>
+      </ul>
+
+      <h3 class="sub">Sesión 6 · Escritura, vejez y hábitos</h3>
+      <ul>
+        <li>Se trabaja la metáfora de la flor para observar el proceso natural de vejez y deterioro, mirándolo sin huir ni idealizar.</li>
+        <li>Se introduce la escritura como forma de ordenar percepciones sobre la vejez, la enfermedad y el propio lugar de hija/cuidadora.</li>
+        <li>Se conversa sobre recursos de hipnosis sonora y retiros, y la necesidad de integrar estos recursos en hábitos de autocuidado y trabajo con el peso corporal.</li>
+        <li>Se programa nueva sesión con foco específico en <strong>hábitos y peso</strong>, manteniendo el hilo de la relación con MXXX y los mandatos de sacrificio.</li>
+      </ul>
+    </section>
+
+    <!-- TÉCNICAS -->
+    <section class="card">
+      <div class="card-header">
+        <h2>6. Técnicas terapéuticas empleadas</h2>
+        <span class="pill">MRI · SFBT · Hipnosis</span>
+      </div>
+      <p class="sub">6.1 Recursos verbales y relacionales</p>
+      <ul>
+        <li>Preguntas circulares para mapear posiciones familiares y creencias compartidas.</li>
+        <li>Reencuadre positivo constante ante tendencia a la descalificación y autoanulación.</li>
+        <li>Instrumentación de lenguaje metafórico y no verbal (Sol, metáforas deportivas, flor, “la Traba”).</li>
+        <li>Intervenciones puntuales sobre contradicciones en el discurso.</li>
+        <li>Atribución explícita de éxito y responsabilidad a la consultante.</li>
+      </ul>
+
+      <p class="sub">6.2 Recursos corporales e hipnóticos</p>
+      <ul>
+        <li>Respiración 5–4–6, masaje abdominal/sienes como cambio de patrón y anclaje de regulación.</li>
+        <li>Escultura simbólica e integración de partes internas.</li>
+        <li>Inducción hipnótica con metáforas naturales (por ejemplo, árbol sólido con raíces profundas).</li>
+        <li>Exposición progresiva a metas visibles y visibilidad pública.</li>
+        <li>Uso de escalas y pregunta milagro como brújula de avance.</li>
+      </ul>
+    </section>
+
+    <!-- OBJETIVOS TERAPÉUTICOS -->
+    <section class="card">
+      <div class="card-header">
+        <h2>7. Objetivos terapéuticos</h2>
+        <span class="pill">Ho · no dichos a la clienta</span>
+      </div>
+      <ul>
+        <li>Reencuadrar los <strong>roles familiares</strong> y favorecer la delegación de responsabilidades (del “deber histórico” al rol actual posible).</li>
+        <li>Mejorar la comunicación conyugal, abriendo espacio para una intimidad sin culpa ni obligación.</li>
+        <li>Reforzar la identidad individual de DXXX y su visibilidad progresiva (proyecto personal, exposición pública).</li>
+        <li>Consolidar hábitos de autocuidado: sueño, alimentación, movimiento, espacios de disfrute.</li>
+        <li>Favorecer el paso de <em>pensamiento</em> a <em>conducta</em> mediante acciones mínimas diferentes.</li>
+        <li>Resignificar la temporalidad: del “ya es tarde para mí” a una narrativa de ciclo vital activo.</li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+</html>
